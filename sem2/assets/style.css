@@ -1,0 +1,57 @@
+body {
+  background-color:rgb(46, 44, 44);
+}
+
+h1 {
+  color:white;
+  font-size: 45px;
+  margin: 0;
+}
+h2 {
+  color:rgb(238, 230, 220);
+  margin-top: 20px;
+}
+.menu {
+  margin: 0;
+  font-size: 35px;
+}
+.title {
+  color:rgb(235, 209, 177);
+  font-size: 31px;
+}
+.titleDesc {
+  color:rgb(238, 230, 220);
+  margin-top: 20px;
+}
+.box {
+  margin-top: 35px;
+  /* solid - сплошная заливка, dashed - пунктир */
+  border: 4px dashed rgb(255, 255, 255);
+  width: 1025px;
+  background-color:rgb(46, 44, 44);
+  padding: 25px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image {
+  margin-top: 35px;
+}
+li {
+  font-size: 25px;
+  color:rgb(238, 230, 220);
+  margin-top: 20px;
+}
+
+hr {
+  height: 3px;
+}
+.wrapperList {
+  margin-top: 30px;
+}
+a {
+  color:antiquewhite;
+  cursor: pointer;
+}
