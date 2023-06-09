@@ -2,18 +2,23 @@ body {
   background-color:rgb(46, 44, 44);
 }
 
-h1 {
+.header {
   color:white;
   font-size: 45px;
   margin: 0;
+  margin-right: -100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 h2 {
   color:rgb(238, 230, 220);
   margin-top: 20px;
 }
 .menu {
-  margin: 0;
+  margin: 0px;
   font-size: 35px;
+  padding: 15px;
 }
 .title {
   color:rgb(235, 209, 177);
@@ -22,6 +27,9 @@ h2 {
 .titleDesc {
   color:rgb(238, 230, 220);
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .box {
   margin-top: 35px;
@@ -37,19 +45,29 @@ h2 {
   align-items: center;
 }
 .image {
-  margin-top: 35px;
+  margin-top: -282px;
+  margin-left: -620px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50%;
 }
 li {
   font-size: 25px;
   color:rgb(238, 230, 220);
   margin-top: 20px;
 }
-
+/* ol {
+  font-size: 25px;
+  color:rgb(238, 230, 220);
+  margin-top: 20px;
+  margin-left: -75px;
+} */
 hr {
   height: 3px;
 }
 .wrapperList {
-  margin-top: 30px;
+  margin-top: 270px;
 }
 a {
   color:antiquewhite;
