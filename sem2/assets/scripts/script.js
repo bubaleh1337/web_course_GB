@@ -12,9 +12,9 @@ let count = 0;
 
 function changedColor() {
   // получаем массив:
-  let box = document.getElementsByClassName('box');
+  let title = document.getElementsByClassName('title');
   // получаем первый элемент:
-  let element = box[0];
+  let element = title[0];
   // Math.random() * 10 - 0 до 1;
   // if (count % 2 == 0) {
   //   // добавляем класс:
@@ -26,7 +26,7 @@ function changedColor() {
   // count++;
 
   // можно всё, что описано выше по замене цвета, в одну строку:
-  element.classList.toggle('activeBox');
+  element.classList.toggle('activeTitle');
 }
 
 let btn = document.getElementById('btn');
