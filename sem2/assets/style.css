@@ -66,9 +66,14 @@ li {
 } */
 hr {
   height: 3px;
+  width:100%;
+  
 }
 .wrapperList {
   margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items:start;
 }
 a {
   color:antiquewhite;
@@ -88,4 +93,8 @@ button {
   color: wheat;
   background-color: rgb(46, 44, 44);
   margin-top: 35px;
+}
+.show_link {
+  margin-top: -60px;
+  margin-left: 300px;
 }
