@@ -1,0 +1,23 @@
+GET https://nalog.ru/ 
+
+###
+GET https://jsonplaceholder.typicode.com/todos/
+
+###
+POST https://jsonplaceholder.typicode.com/users/
+
+Content-Type: application/json
+{
+  "name": "Kate",
+  "age": 25
+}
+
+###
+POST https://yandex.ru/search/
+
+Content-Type: application/json
+{
+    "text": "котики"
+}
+
+POST 
